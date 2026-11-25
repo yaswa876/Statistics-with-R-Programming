@@ -1,0 +1,11 @@
+a <- as.numeric(readline("Enter first number: "))
+b <- as.numeric(readline("Enter second number: "))
+c <- as.numeric(readline("Enter third number: "))
+
+if(a <= b && a <= c) {
+  cat("Smallest =", a)
+} else if(b <= a && b <= c) {
+  cat("Smallest =", b)
+} else {
+  cat("Smallest =", c)
+}
